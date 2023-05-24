@@ -54,6 +54,7 @@
     color: var(--dark-blue);
     text-transform: capitalize;
     font-weight: 700;
+    line-height: 1;
 }
 .current_location_header {
     display: flex;
@@ -102,17 +103,71 @@
 .service_time {
     padding-top: 18px;
     padding-bottom: 16px;
+    border-bottom: 1px solid var(--light-gray);
 }
 .service_time__info {
     display: flex;
-    background: var(--light-gray);
+    background: var(--v-light-gray);
     border-radius: 3px;
     padding: 6px 9px;
     margin-top: 8px;
 }
-.upcoming_title {
+.service_time_title {
     font-size: 0.75rem;
     color: var(--black);
     text-transform: capitalize;
     margin-bottom: 6px;
+}
+.service__time_title {
+    font-size: 0.625rem;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.service_time__clock {
+    font-size: 0.75rem;
+    color: var(--black);
+    line-height: 1;
+}
+.service_time__upcoming {
+    padding-right: 15px;
+    border-right: 1px solid var(--light-gray);
+}
+.service_time__remaining{
+    padding-left: 8px;
+    padding-right: 23px;
+    width: 100%;
+}
+.remaining_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.telematics {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--light-gray);
+}
+.telematics_left {
+    margin-right: 48px;
+}
+.telematics_info {
+    margin-top: 15px;
+}
+.telematics_name {
+    font-size: 0.75rem;
+    color: var(--dark-gray);
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    line-height: 1;
+}
+.telematics_value {
+    font-size: 0.75rem;
+    color: var(--black);
+    margin-bottom: 7px;
+    line-height: 1;
+}
+.text-gray {
+    color: var(--dark-gray);
 }
