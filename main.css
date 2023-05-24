@@ -99,3 +99,20 @@
     color: var(--black);
     margin-top: 3px;
 }
+.service_time {
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+.service_time__info {
+    display: flex;
+    background: var(--light-gray);
+    border-radius: 3px;
+    padding: 6px 9px;
+    margin-top: 8px;
+}
+.upcoming_title {
+    font-size: 0.75rem;
+    color: var(--black);
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
