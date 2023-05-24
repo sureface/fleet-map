@@ -1,0 +1,51 @@
+@import "colors.css";
+@import "fonts.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: openSansBold, serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.f_map__details {
+    padding: 24px 15px;
+}
+.f_map__details_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--light-gray);
+}
+.f_a-center {
+    display: flex;
+    align-items: center;
+}
+.f_map__details_num {
+    padding: 3px 7px;
+    line-height: 1;
+    background: var(--dark-blue);
+    color: var(--white);
+    border-radius: 4px;
+    margin-right: 6px;
+}
+.f_map__details_title {
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+.f_map__details_btn {
+    border: 1px solid #717171;
+    border-radius: 26px;
+    background: transparent;
+    padding: 3px 7px;
+    color: var(--dark-gray);
+    cursor: pointer;
+}
+
+.current_location {
+    padding-top: 9px;
+    
+}
