@@ -50,7 +50,7 @@
     padding-bottom: 13px;
     border-bottom: 1px solid var(--light-gray);
 }
-.f_map__details-title {
+.fleet_hours-title {
     color: var(--dark-blue);
     text-transform: capitalize;
     font-weight: 700;
@@ -100,12 +100,12 @@
     color: var(--black);
     margin-top: 3px;
 }
-.service_time {
+.fleet_hours {
     padding-top: 18px;
     padding-bottom: 16px;
     border-bottom: 1px solid var(--light-gray);
 }
-.service_time__info {
+.fleet_hours-block {
     display: flex;
     background: var(--v-light-gray);
     border-radius: 3px;
@@ -130,20 +130,19 @@
     color: var(--black);
     line-height: 1;
 }
-.service_time__upcoming {
+.fleet_hours__upcoming {
     padding-right: 15px;
     border-right: 1px solid var(--light-gray);
 }
-.service_time__remaining{
+.fleet_hours__remaining{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
     padding-left: 8px;
     padding-right: 23px;
     width: 100%;
 }
-.remaining_details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .telematics {
     padding-top: 13px;
     padding-bottom: 15px;
